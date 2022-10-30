@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<guessANumber>
+	<player category="player1">
+		<name>Jane</name>
+		<totalAttempt>4</totalAttempt>
+		<score>4</score>
+	</player>
+	<player category="player2">
+		<name>Ademola</name>
+		<totalAttempt>4</totalAttempt>
+		<score>0</score>
+	</player>
+	<gameOverNode>0</gameOverNode>
+	<playerTwosTurn>0</playerTwosTurn>
+</guessANumber>
