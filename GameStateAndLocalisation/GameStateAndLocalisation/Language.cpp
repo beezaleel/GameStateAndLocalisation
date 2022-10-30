@@ -1,13 +1,20 @@
 #include "Language.h"
 
+// Default constructor
 Language::Language()
 {
 }
 
+// Destructor
 Language::~Language()
 {
 }
 
+/// <summary>
+/// Reads xml file and convert to a Language data object
+/// </summary>
+/// <param name="selectedLanguage">The language type. Default is `en`</param>
+/// <returns></returns>
 LanguageData Language::Read(std::string selectedLanguage)
 {
 	LanguageData data;

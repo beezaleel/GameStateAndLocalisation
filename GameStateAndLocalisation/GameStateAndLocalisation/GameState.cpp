@@ -1,14 +1,20 @@
 #include "GameState.h"
 
+// The constructor
 GameState::GameState(): mData({})
 {
 	hasData = false;
 }
 
+// The destructor
 GameState::~GameState()
 {
 }
 
+/// <summary>
+/// Reads the saved game state from an XML file and returns it as a Data type
+/// </summary>
+/// <returns></returns>
 Data GameState::Read()
 {
 	pugi::xml_document guessANumber;
@@ -66,6 +72,10 @@ Data GameState::Read()
 	return mData;
 }
 
+/// <summary>
+/// Writes the current game state into an xml file
+/// </summary>
+/// <param name="data">Receives data as input</param>
 void GameState::Write(Data data)
 {
 	pugi::xml_document guessANumber = pugi::xml_document();

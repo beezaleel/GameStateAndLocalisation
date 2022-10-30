@@ -3,6 +3,7 @@
 #include <string>
 #include <pugixml.hpp>
 
+// The struct for parsing xml
 struct LanguageData {
 	std::string welcome = "";
 	std::string newGame = "";

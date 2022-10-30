@@ -28,11 +28,13 @@ unsigned int microsecond = 5000;
 bool player2sTurn = false;
 bool gameOver = false;
 
+// Stores the secret and the guessed number
 struct PlayersInput {
 	int secretNo;
 	int guessedNo;
 };
 
+// Stores the number of attempts and score of each player
 struct Result {
 	int totalAttempt;
 	int score;
@@ -42,6 +44,11 @@ LanguageData languageData;
 Result player1Result;
 Result player2Result;
 
+/// <summary>
+/// Changes the console color for each user. It helps different the users and adds little live to the game.
+/// </summary>
+/// <param name="color">The color number</param>
+/// <param name="message">The string message</param>
 void ChangeConsoleColor(int color, std::string message) {
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
 	printf("%s\n", message.c_str());
@@ -56,6 +63,7 @@ void LoadLanguage();
 bool LoadState();
 void SaveState();
 
+// The main method
 int main(int argc, char* argv) {
 
 	srand((unsigned int)time(NULL));
@@ -152,6 +160,10 @@ void Update() {
 	}
 }
 
+/// <summary>
+/// Retrive the number the computer is thinking and also the user's guess
+/// </summary>
+/// <returns></returns>
 PlayersInput GetInputFromComputer() {
 	int secret, guess;
 	PlayersInput input;
@@ -171,6 +183,10 @@ PlayersInput GetInputFromComputer() {
 	return input;
 }
 
+/// <summary>
+/// Retrieve the number the user is thinking and also the computer's guess
+/// </summary>
+/// <returns></returns>
 PlayersInput GetInputFromPlayer() {
 	int secret, guess;
 	PlayersInput input;
@@ -192,6 +208,11 @@ PlayersInput GetInputFromPlayer() {
 	return input;
 }
 
+/// <summary>
+/// Processes the input from both players and return result
+/// </summary>
+/// <param name="input">Data from both players</param>
+/// <param name="player2sTurn">True if it's the turn of the user</param>
 void ProcessUserInput(PlayersInput input, bool player2sTurn) {
 	if (!player2sTurn) {
 		if (input.guessedNo == input.secretNo) {
@@ -218,6 +239,10 @@ void ProcessUserInput(PlayersInput input, bool player2sTurn) {
 	ChangeConsoleColor(UMPIRE_TEXT_COLOR, UMPIRE_NAME + languageData.scores.c_str() + player1 + ": " + std::to_string(player1Result.score) + ", " + player2 + ": " + std::to_string(player2Result.score));
 }
 
+/// <summary>
+/// Retrieve the save state from XML
+/// </summary>
+/// <returns></returns>
 bool LoadState() {
 	GameState gameState = GameState();
 	Data state = Data();
@@ -246,6 +271,9 @@ bool LoadState() {
 	return gameState.hasData;
 }
 
+/// <summary>
+/// Save game state to xml
+/// </summary>
 void SaveState() {
 	printf("%s\n", languageData.saving.c_str());
 
@@ -268,6 +296,9 @@ void SaveState() {
 	exit(0);
 }
 
+/// <summary>
+/// Loads the selected language from xml
+/// </summary>
 void LoadLanguage() {
 	int option;
 	Language language = Language();
