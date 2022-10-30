@@ -2,6 +2,7 @@
 
 GameState::GameState(): mData({})
 {
+	hasData = false;
 }
 
 GameState::~GameState()
@@ -12,16 +13,20 @@ Data GameState::Read()
 {
 	pugi::xml_document guessANumber;
 	pugi::xml_parse_result result = guessANumber.load_file("guess_a_number.xml");
-	if (!result)
+	if (!result) {
 		hasData = false;
+		return Data();
+	}
 
 	pugi::xml_object_range<pugi::xml_node_iterator> states = guessANumber.child("guessANumber").children();
-	if (states.empty())
+	if (states.empty()) {
 		hasData = false;
+		return Data();
+	}
 
 	pugi::xml_node_iterator guessANumberIt;
 	for (guessANumberIt = states.begin(); guessANumberIt != states.end(); guessANumberIt++) {
-		pugi::xml_node guessANumberNode = *guessANumberIt;;
+		pugi::xml_node guessANumberNode = *guessANumberIt;
 
 		pugi::xml_attribute category = guessANumberNode.attribute("category");
 

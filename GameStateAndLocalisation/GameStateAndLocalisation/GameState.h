@@ -3,14 +3,14 @@
 #include <pugixml.hpp>
 
 struct PlayerData {
-	std::string name;
-	int totalAttempt;
-	int score;
+	std::string name = "";
+	int totalAttempt = 0;
+	int score = 0;
 };
 
 struct Data {
-	bool gameOver;
-	bool playerTwosTurn;
+	bool gameOver = false;
+	bool playerTwosTurn = false;
 	PlayerData playerOne;
 	PlayerData playerTwo;
 };

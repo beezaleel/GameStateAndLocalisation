@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <welcome lang="en">Welcome! Please choose from the options below to start</welcome>
+  <welcome lang="fr">Accueillir! Veuillez choisir parmi les options ci-dessous pour commencer</welcome>
+  <welcome lang="yo">Kaabo! Jọwọ yan lati awọn aṣayan isalẹ lati bẹrẹ</welcome>
+  <welcome lang="hi">svaagat! shuroo karane ke lie krpaya neeche die gae vikalpon mein se chunen</welcome>
+  <welcome lang="sp">¡Bienvenidos! Elija entre las siguientes opciones para comenzar</welcome>
+
+  <newGame lang="en">1) Play a new game</newGame>
+  <newGame lang="fr">1) Jouez à un nouveau jeu</newGame>
+  <newGame lang="yo">1) Mu ere tuntun kan</newGame>
+  <newGame lang="hi">1) ek naya gem khelen</newGame>
+  <newGame lang="sp">1) Juega un juego nuevo</newGame>
+
+  <savedGame lang="en">2) Load saved game</savedGame>
+  <savedGame lang="fr">2) Charger le jeu sauvegardé</savedGame>
+  <savedGame lang="yo">2) Fifuye ti o ti fipamọ game</savedGame>
+  <savedGame lang="hi">2) lod saheja gaya gem</savedGame>
+  <savedGame lang="sp">2) Cargar juego guardado</savedGame>
+
+  <hello lang="en">Hello! My name is Jane. Would you like to play a number guessing game with me? Please enter your name</hello>
+  <hello lang="fr">Bonjour! Je m'appelle Jeanne. Aimeriez-vous jouer à un jeu de devinettes avec moi ? S'il vous plaît entrez votre nom</hello>
+  <hello lang="yo">Pẹlẹ o! Orukọ mi ni Jane. Ṣe o fẹ lati ṣe ere lafaimo nọmba pẹlu mi? Jọwọ tẹ orukọ rẹ sii</hello>
+  <hello lang="hi">namaste! mera naam jen hai. kya aap mere saath sankhya anumaan lagaane vaala khel khelana chaahenge? apana naam darj karen</hello>
+  <hello lang="sp">¡Hola! Mi nombre es Jane. ¿Te gustaría jugar un juego de adivinanzas conmigo? por favor, escriba su nombre</hello>
+
+  <hi lang="en">, we will both take turns in guessing a number from 1 - 3, with 5 attempts each.</hi>
+  <hi lang="fr">, nous allons tous les deux à tour de rôle deviner un nombre de 1 à 3, avec 3 tentatives chacun.</hi>
+  <hi lang="yo">, a yoo mejeeji ya awọn titan ni lafaimo nọmba kan lati 1 - 3, pẹlu 3 igbiyanju kọọkan.</hi>
+  <hi lang="hi">, ham donon baaree-baaree se 1 - 3 se kisee sankhya ka anumaan lagaate hain, jisamen se pratyek mein 3 prayaas hote hain</hi>
+  <hi lang="sp">, ambos nos turnaremos para adivinar un número del 1 al 3, con 3 intentos cada uno.</hi>
+
+  <if lang="en">: If you fail to guess the number i'm thinking, you get 0, but if you guess right, you get 1</if>
+  <if lang="fr">: Si vous ne parvenez pas à deviner le nombre auquel je pense, vous obtenez 0, mais si vous devinez bien, vous obtenez 1</if>
+  <if lang="yo">: Ti o ba kuna lati gboju le won nọmba ti Mo n ro, o gba 0, ṣugbọn ti o ba gboju le won ọtun, o gba 1</if>
+  <if lang="hi">: yadi aap mere dvaara sochee gaee sankhya ka anumaan lagaane mein viphal rahate hain, to aapako 0 praapt hota hai, lekin yadi aap sahee anumaan lagaate hain, to aapako 1 praapt hota hai</if>
+  <if lang="sp">: Si no logras adivinar el número que estoy pensando, obtienes 0, pero si aciertas, obtienes 1</if>
+
+  <you lang="en">: You can save the game and continue later by pressing zero '0'.</you>
+  <you lang="fr">: Vous pouvez sauvegarder la partie et continuer plus tard en appuyant sur zéro '0'.</you>
+  <you lang="yo">: O le fipamọ ere naa ki o tẹsiwaju nigbamii nipa titẹ odo '0'.</you>
+  <you lang="hi">: aap khel ko sahej sakate hain aur baad mein shoony 0 dabaakar jaaree rakh sakate hain</you>
+  <you lang="sp">: Puede guardar el juego y continuar más tarde presionando cero '0'.</you>
+
+  <there lang="en">There is an Umpire that keeps record of scores. Let us begin</there>
+  <there lang="fr">Il y a un arbitre qui enregistre les scores. Commençons</there>
+  <there lang="yo">Umpire wa ti o ntọju igbasilẹ ti awọn ikun. Jẹ ki a bẹrẹ</there>
+  <there lang="hi">ek ampaayar hota hai jo skor ka rikord rakhata hai. hamen shuroo karane den</there>
+  <there lang="sp">Hay un árbitro que lleva un registro de las puntuaciones. Empecemos</there>
+
+  <thinking lang="en">: I'm thinking of a number...</thinking>
+  <thinking lang="fr">: Je pense à un nombre...</thinking>
+  <thinking lang="yo">: Mo n ronu nọmba kan...</thinking>
+  <thinking lang="hi">: main ek nambar ke baare mein soch raha hoon...</thinking>
+  <thinking lang="sp">: Estoy pensando en un número...</thinking>
+
+  <okay lang="en">: Okay </okay>
+  <okay lang="fr">: D'accord </okay>
+  <okay lang="yo">: O dara </okay>
+  <okay lang="hi">: theek </okay>
+  <okay lang="sp">: De acuerdo </okay>
+
+  <canYou lang="en">, can you guess now</canYou>
+  <canYou lang="fr">, pouvez-vous deviner maintenant</canYou>
+  <canYou lang="yo">, o le gboju le won bayi</canYou>
+  <canYou lang="hi">, kya aap abhee anumaan laga sakate hain?</canYou>
+  <canYou lang="sp">, puedes adivinar ahora</canYou>
+
+  <hi2 lang="en">: Hi </hi2>
+  <hi2 lang="fr">: Salut </hi2>
+  <hi2 lang="yo">: Hi </hi2>
+  <hi2 lang="hi">: नमस्ते </hi2>
+  <hi2 lang="sp">: Hola </hi2>
+
+  <enterA lang="en"> enter a secret number between 1 and 3. Don't worry, you can trust me.</enterA>
+  <enterA lang="fr"> entrez un numéro secret entre 1 et 3. Ne vous inquiétez pas, vous pouvez me faire confiance.</enterA>
+  <enterA lang="yo"> tẹ nọmba ikoko sii laarin 1 ati 3. Maṣe yọ ara rẹ lẹnu, o le gbẹkẹle mi.</enterA>
+  <enterA lang="hi"> 1 aur 3 ke beech ek gupt nambar darj karen. chinta na karen, aap mujh par vishvaas kar sakate hain. </enterA>
+  <enterA lang="sp"> ingrese un número secreto entre 1 y 3. No se preocupe, puede confiar en mí.</enterA>
+
+  <theNumber lang="en">: The number is </theNumber>
+  <theNumber lang="fr">: Le nombre est </theNumber>
+  <theNumber lang="yo">: Nọmba naa jẹ </theNumber>
+  <theNumber lang="hi">: sankhya hai </theNumber>
+  <theNumber lang="sp">: El numero es </theNumber>
+
+  <right lang="en">: You are right </right>
+  <right lang="fr">: Vous avez raison </right>
+  <right lang="yo">: Otito ni o so </right>
+  <right lang="hi">: sahee kaha </right>
+  <right lang="sp">: Tienes razón </right>
+
+  <wrong lang="en">: Wrong </wrong>
+  <wrong lang="fr">: Mauvais </wrong>
+  <wrong lang="yo">: Aṣiṣe </wrong>
+  <wrong lang="hi">: galat </wrong>
+  <wrong lang="sp">: Equivocado </wrong>
+
+  <scores lang="en">: Scores - </scores>
+  <scores lang="fr">: Notes -</scores>
+  <scores lang="yo">: Dimegilio - </scores>
+  <scores lang="hi">: skor - </scores>
+  <scores lang="sp">: Puntuaciones - </scores>
+
+  <loading lang="en">Loading saved game . . .</loading>
+  <loading lang="fr">Chargement de la partie sauvegardée. . .</loading>
+  <loading lang="yo">Nkojọpọ ere ti o fipamọ. . .</loading>
+  <loading lang="hi">saheja gaya khel lod ho raha hai. . .</loading>
+  <loading lang="sp">Cargando partida guardada. . .</loading>
+
+  <previous lang="en">No previous game state found, loading new game.</previous>
+  <previous lang="fr">Aucun état de jeu précédent trouvé, chargement d'un nouveau jeu.</previous>
+  <previous lang="yo">Ko si tẹlẹ game ipinle ri, ikojọpọ titun game.</previous>
+  <previous lang="hi">koee pichhala gem stet nahin mila, naya gem lod ho raha hai.</previous>
+  <previous lang="sp">No se encontró el estado del juego anterior, cargando un juego nuevo.</previous>
+
+  <saving lang="en">Saving game state . . .</saving>
+  <saving lang="fr">Sauvegarde de l'état du jeu. . .</saving>
+  <saving lang="yo">Nfipamọ ipo ere. . .</saving>
+  <saving lang="hi">khel raajy saheja ja raha hai. . </saving>
+  <saving lang="sp">Guardando el estado del juego. . .</saving>
+
+  <goodbye lang="en">Goodbye!</goodbye>
+  <goodbye lang="fr">Au revoir!</goodbye>
+  <goodbye lang="yo">O dabọ!</goodbye>
+  <goodbye lang="hi">alavida!</goodbye>
+  <goodbye lang="sp">¡Adiós!</goodbye>
+
+  <theWinner lang="en">: THE WINNER IS </theWinner>
+  <theWinner lang="fr">: LE GAGNANT EST </theWinner>
+  <theWinner lang="yo">: OLOLUFE NI </theWinner>
+  <theWinner lang="hi">: vijeta hai </theWinner>
+  <theWinner lang="sp">: EL GANADOR ES </theWinner>
+
+  <withAScore lang="en">!!! WITH A SCORE OF </withAScore>
+  <withAScore lang="fr">!!! AVEC UN SCORE DE </withAScore>
+  <withAScore lang="yo">!!! PẸLU A Dimegilio OF </withAScore>
+  <withAScore lang="hi">!!! ke skor ke saath </withAScore>
+  <withAScore lang="sp">!!! CON UNA PUNTUACIÓN DE </withAScore>
+
+  <scored lang="en"> scored </scored>
+  <scored lang="fr"> marqué </scored>
+  <scored lang="yo"> gba wọle </scored>
+  <scored lang="hi"> ran banae </scored>
+  <scored lang="sp"> Anotado </scored>
+
+  <noWinner lang="en">: NO WINNER, </noWinner>
+  <noWinner lang="fr">: AUCUN GAGNANT, </noWinner>
+  <noWinner lang="yo">: KO ASEJE, </noWinner>
+  <noWinner lang="hi">: koee vijeta nahin, </noWinner>
+  <noWinner lang="sp">: SIN GANADOR, </noWinner>
+
+  <and2 lang="en"> AND </and2>
+  <and2 lang="fr"> ET </and2>
+  <and2 lang="yo"> ATI </and2>
+  <and2 lang="hi"> tatha </and2>
+  <and2 lang="sp"> Y </and2>
+
+  <scoredTheSame lang="en"> SCORED THE SAME </scoredTheSame>
+  <scoredTheSame lang="fr"> A MARQUE LE MEME </scoredTheSame>
+  <scoredTheSame lang="yo"> DAMI KANNA </scoredTheSame>
+  <scoredTheSame lang="hi"> vahee skor kiya </scoredTheSame>
+  <scoredTheSame lang="sp"> Anotó el mismo </scoredTheSame>
+  
+</language>

@@ -148,13 +148,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="Language.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameState.h" />
+    <ClInclude Include="Language.h" />
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="guess_a_number.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="language.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
